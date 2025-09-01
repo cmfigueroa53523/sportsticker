@@ -47,7 +47,7 @@
                 {
                     "type" : "matchup",
                     "team1" : {
-                        "logo" : "images/northcarolina-only.png",
+                        "logo" : "images/unc-logo.png",
                         "name" : "North Carolina",
                         "rank" : null
                     },
@@ -85,17 +85,15 @@
         "items" : [
             [
                 {
-                    "type" : "scores",
-                    "isFinal" : true,
+                    "type" : "scores-abbr",
+                    "isFinal" : false,
                     "team1" : {
-                        "rank" : 12,
-                        "name" : "North Carolina",
-                        "points" : 12
+                        "abbr" : "UNC",
+                        "points" : 20
                     },
                     "team2" : {
-                        "rank" : 1,
-                        "name" : "Broncos",
-                        "points" : 44
+                        "abbr" : "TCU",
+                        "points" : 25
                     },
                     "messages" : [
                         "Scores can be displayed 2 different ways.",
