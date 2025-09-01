@@ -1,5 +1,6 @@
 [
     {
+        
         "topic" : "Full Width",
         "items" : [
             [
@@ -46,13 +47,13 @@
                 {
                     "type" : "matchup",
                     "team1" : {
-                        "logo" : "images/afcw_denver-only.png",
-                        "name" : "Denver",
-                        "rank" : "1"
+                        "logo" : "images/northcarolina-only.png",
+                        "name" : "North Carolina",
+                        "rank" : null
                     },
                     "team2" : {
                         "logo" : "images/afcs_indianapolis-only.png",
-                        "name" : "Indianapolis",
+                        "name" : "TCU",
                         "rank" : null
                     },
                     "messages" : [
@@ -73,7 +74,7 @@
                         "name" : "Green Bay"
                     },
                     "messages" : [
-                        "Another matchup."
+                        "TEST"
                     ]
                 }
             ]
@@ -88,8 +89,8 @@
                     "isFinal" : true,
                     "team1" : {
                         "rank" : 12,
-                        "name" : "Cowboys",
-                        "points" : 41
+                        "name" : "North Carolina",
+                        "points" : 12
                     },
                     "team2" : {
                         "rank" : 1,
@@ -115,8 +116,8 @@
                         "points" : 44
                     },
                     "messages" : [
-                        "This is the abbreviated scores template.",
-                        "More room for details."
+                        "TEST",
+                        "TEST"
                     ]
                 }
             ]

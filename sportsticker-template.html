@@ -24,7 +24,13 @@
 
             <!--st-ticker-->
             <div id="st-ticker-main-container" style="opacity: 0">
-                <div id="st-ticker-primary"></div>
+                <div id="st-ticker-primary">
+  <div class="ticker-item" ng-repeat="item in feed">
+    <img src="images/unc-logo.png" alt="UNC Logo" class="team-logo">
+    <span class="team-name">{{item.teamName}}</span>
+    <span class="ticker-message">{{item.message}}</span>
+  </div>
+</div>
                 <div class="st-ticker-shadow"></div>
             </div>
             <!--end st-ticker-->
@@ -41,6 +47,11 @@
 
         <div id="st-ticker-divider"></div>
         <div id="st-ticker-bottom"></div>
+        <div class="ticker-item">
+  <img ng-src="{{item.logoUrl}}" alt="{{item.teamName}}" class="team-logo">
+  <span class="team-name">{{item.teamName}}</span>
+  <span class="ticker-message">{{item.message}}</span>
+</div>
 
     </div>
 </div>
