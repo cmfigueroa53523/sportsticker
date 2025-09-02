@@ -89,11 +89,11 @@
                     "isFinal" : false,
                     "team1" : {
                         "abbr" : "UNC",
-                        "points" : 20
+                        "points" : 0
                     },
                     "team2" : {
                         "abbr" : "TCU",
-                        "points" : 25
+                        "points" : 0
                     },
                     "messages" : [
                         "Scores can be displayed 2 different ways.",
