@@ -105,13 +105,13 @@
                     "type" : "scores-abbr",
                     "isFinal" : true,
                     "team1" : {
-                        "abbr" : "Dal",
-                        "points" : 41
+                        "abbr" : "UNC",
+                        "points" : 0
                     },
                     "team2" : {
                         "rank" : 1,
-                        "abbr" : "Den",
-                        "points" : 44
+                        "abbr" : "TCU",
+                        "points" : 0
                     },
                     "messages" : [
                         "TEST",
